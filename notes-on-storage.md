@@ -33,7 +33,7 @@ __memory gas consumption__:\
     - For a = __512 chunks__, Gas consumption will be (3 * 512 + (512 * 512) / 512) = __2560 units__\
     *Note:* *Cost of memory usage is not very significant as compared to storage. It's a good practice to always use memory to perform intermediate calculations and store results in storage.* \
 
-## For each type of variable, there exists a default storage location:
+### For each type of variable, there exists a default storage location:
 
 __state variables__ are *always* in *storage*\
 __function arguments__ are *always* in *memory*\
